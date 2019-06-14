@@ -73,7 +73,7 @@ When you host your personal website's code on GitHub, you get the support of fre
 
 ## Customization
 
-It's your website, and you control the source code. So you can customize everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
+It's your website, and you control the source code.  But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
 
 ### Quick configuration changes
 
