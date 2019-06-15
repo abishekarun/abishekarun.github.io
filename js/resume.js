@@ -26,3 +26,12 @@
   });
 
 })(jQuery); // End of use strict
+
+$(document).ready(function () {
+
+    $('#sidebarCollapse').on('click', function () {
+        $('#sideNav').toggleClass('active');
+        $('#img').toggle();
+    });
+
+});
