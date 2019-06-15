@@ -196,18 +196,3 @@ a:focus,
 a:hover {
 	color: #824027
 }
-.skills .skillz {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-}
-.skills .skillz__category__label {
-    font-weight: 700;
-    color: #36363c;
-    text-transform: uppercase;
-}
-.skills .skillz__category__item {
-    margin: 3px 0;
-    font-size: .9rem;
-}
