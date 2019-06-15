@@ -196,18 +196,3 @@ a:focus,
 a:hover {
 	color: #824027
 }
-
-.wrapper {
-    display: flex;
-    align-items: stretch;
-}
-
-#sideNav {
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 100vh;
-}
-
-#sideNav.active {
-    margin-left: -250px;
-}
