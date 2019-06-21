@@ -196,11 +196,11 @@ a:focus,
 a:hover {
 	color: #824027
 }
-.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
-    color: black;
-    background-color: #fcd900;
-}
-.nav-pills > li.active > a:hover {
+.nav-pills .nav-link.active> li.active > a:hover {
 	background-color: #efcb00;
 	color:black;
+}
+.nav-pills .nav-link.active> li.active > a, .nav-pills .nav-link.active> li.active > a:focus, .nav-pills .show>.nav-link{
+	color: black;
+    background-color: #fcd900;
 }
