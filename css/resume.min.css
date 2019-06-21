@@ -205,3 +205,6 @@ a:hover {
 .mb-0 a:hover {
    color: blue;
 }
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
