@@ -205,11 +205,6 @@ a:hover {
     color: #fff;
     background-color: #737CA1;
 }
-.mb-0 a:link,
-.mb-0 a:visited,
-.mb-0 a:hover {
-   color: blue;
-}
 .mb-5{
     margin-bottom: 1rem!important;
 }
