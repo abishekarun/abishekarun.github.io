@@ -154,7 +154,9 @@ h6 {
 		position: relative;
 		background-color:#5EC36A;
 		border:0;
-		float:none;
+		float:right;
+		left:-10%;
+		margin:0 auto;
 	}
 }
 
@@ -225,11 +227,11 @@ a:hover {
 }*/
 
 
-.navbar-expand-lg .navbar-nav .dropdown-menu{
+.dropdown-menu{
 	position:relative;
 	background-color:#5EC36A;
 	border:0;
-	float:right;
+	float:none;
 }
 ul.dropdown-menu:hover {
     color: black;
