@@ -216,7 +216,7 @@ a:hover {
 .navbar-nav{
   margin-bottom: 120px;
 }
-.navbar-nav .dropdown-menu{
+.dropdown-menu{
 	position:relative;
 	background-color:#5EC36A;
 	border:0;
