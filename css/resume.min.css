@@ -227,7 +227,7 @@ a:hover {
 }*/
 
 @media only screen and (max-width: 991px) {
-    .dropdown-menu{
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
 		position:relative;
 		background-color:#5EC36A;
 		border:0;
