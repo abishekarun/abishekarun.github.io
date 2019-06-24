@@ -225,6 +225,14 @@ a:hover {
 		position:relative;
 	}
 }*/
+.dropdown .nav-item>a:focus{
+  color: black;
+}
+.dropdown .nav-item>a:active {
+  color: white;
+}
+button:focus { color: red; }
+  button:active { font-weight: bold; }
 
 @media only screen and (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .dropdown-menu{
