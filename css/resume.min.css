@@ -216,7 +216,14 @@ a:hover {
 .navbar-nav{
   margin-bottom: 120px;
 }
-.dropdown-menu{
+/*@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+		position:relative;
+	}
+}*/
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
 	position:relative;
 	background-color:#5EC36A;
 	border:0;
