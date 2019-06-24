@@ -42,7 +42,7 @@
         <li class="nav-item nav-dropdown">
           <a class="nav-link dropdown-toggle" id="pageSubmenu" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Projects</a>
-          <ul class="nav-dropdown-items" id="pageSubmenu">
+          <ul class="nav-dropdown-menu" id="pageSubmenu">
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Techprojects">Technical</a></li>
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Freeprojects">Freelance</a></li>
           </ul>
@@ -638,13 +638,6 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
-  <script type="text/javascript">
-    $('.dropdown-toggle').on('click', function (e) {
-      $('.dropdown-toggle').each(function (i,elem) {
-          if (elem != e.target) $(elem.parentElement).removeClass('open');
-      });
-})
-  </script>
 </body>
 
 </html>
