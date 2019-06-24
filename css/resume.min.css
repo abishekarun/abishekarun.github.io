@@ -226,13 +226,15 @@ a:hover {
 	}
 }*/
 
-
-.dropdown-menu{
-	position:relative;
-	background-color:#5EC36A;
-	border:0;
-	float:none;
+@media only screen and (max-width: 991px) {
+    .dropdown-menu{
+		position:relative;
+		background-color:#5EC36A;
+		border:0;
+		float:none;
+	}
 }
+
 ul.dropdown-menu:hover {
     color: black;
 }
