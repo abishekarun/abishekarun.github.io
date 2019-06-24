@@ -150,7 +150,7 @@ h6 {
 	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
 		display: block
 	}
-	.dropdown-menu{
+	.navbar-expand-lg .navbar-nav .dropdown-menu{
 		position: relative;
 		background-color:#5EC36A;
 		border:0;
@@ -227,7 +227,7 @@ a:hover {
 }*/
 
 
-.dropdown-menu{
+.navbar-expand-lg .navbar-nav .dropdown-menu{
 	position:relative;
 	background-color:#5EC36A;
 	border:0;
