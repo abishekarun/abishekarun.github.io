@@ -202,6 +202,6 @@ a:hover {
 .mb-5{
     margin-bottom: 1rem!important;
 }
-.navbar-collapse .nav-item a{
+.navbar-dark .navbar-nav .nav-link.active{
 	color:black;
 }
