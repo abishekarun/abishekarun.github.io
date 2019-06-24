@@ -41,7 +41,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="pageSubmenu" role="button"
-            aria-haspopup="true" aria-expanded="false" href="">Projects</a>
+            aria-haspopup="true" aria-expanded="false" href="#">Projects</a>
           <ul class="dropdown-menu" id="pageSubmenu" >
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Techprojects">Technical</a></li>
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Freeprojects">Freelance</a></li>
@@ -105,13 +105,29 @@
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h4 class="mb-0">Happy together:  Learning and Understanding Appraisal From Natural Language</h4>
-          <a href="https://github.com/abishekarun/CLAFF/">Github</a>
-          <a href="https://arxiv.org/abs/1906.03677">Paper</a> 
+          <h4 class="mb-0">Sentence-Level BERT & Multi-Task Learning of Age & Gender in Social Media</h4>
+          <!-- <a href="https://github.com/abishekarun/OffenseEval/">Github</a>
+          <a href="https://arxiv.org/abs/1906.03692">Paper</a> -->
+          <p><i>Submitted to CONLL 2019</i></p> 
           <ul>
-            <li>Carried out several traditional machine learning models and defined the best model as baseline</li>
-            <li>Explored variations of LSTM with different embeddings for sociality and agency classification on HappyDB</li>
-            <li>Visualized words attended by best model and ranked them to understand the model performance</li>
+            <li>Tested variations of Multitask BiGRU (task specific & shared attention) for predicting age-gender simultaneously</li>
+            <li>Compared performance with single task models & small BiGRU models & analyzed the words attended by the model</li>
+            <li>Evaluated bert model performance on individual tasks & analyzed sequence length model performance</li>
+          </ul>  
+        </div>
+      </div>
+
+
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <h4 class="mb-0">BERT and Hierarchical Attention Multi-Task Learning of Fine-Grained Dialect</h4>
+          <p><i>Submitted to EMNLP 2019</i></p>
+          <!-- <a href="https://github.com/abishekarun/OffenseEval/">Github</a>
+          <a href="https://arxiv.org/abs/1906.03692">Paper</a>  -->
+          <ul>
+            <li>Pretrained BERT model from scratch on arabic data & fine tuned on development & test set to report performance</li>
+            <li>Exploited variations of multitask learning(hierarchical & shared model) for city,state & country level dialect prediction</li>
+            <li>Tested the performance of self attention with supervised attention(using mututal information gain)</li>
           </ul>  
         </div>
       </div>
@@ -129,6 +145,20 @@
           </ul>  
         </div>
       </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <h4 class="mb-0">Happy together:  Learning and Understanding Appraisal From Natural Language</h4>
+          <a href="https://github.com/abishekarun/CLAFF/">Github</a>
+          <a href="https://arxiv.org/abs/1906.03677">Paper</a> 
+          <ul>
+            <li>Carried out several traditional machine learning models and defined the best model as baseline</li>
+            <li>Explored variations of LSTM with different embeddings for sociality and agency classification on HappyDB</li>
+            <li>Visualized words attended by best model and ranked them to understand the model performance</li>
+          </ul>  
+        </div>
+      </div>
+
     </div>
   </section>
 

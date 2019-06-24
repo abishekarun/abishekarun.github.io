@@ -225,8 +225,11 @@ a:hover {
 		position:relative;
 	}
 }*/
-.dropdown .nav-item>a:focus{
+.dropdown .nav-item>a{
   color: black;
+}
+.dropdown .nav-item>a:focus{
+  color: white;
 }
 .dropdown .nav-item>a:active {
   color: white;
