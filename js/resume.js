@@ -26,8 +26,4 @@
     target: '#sideNav'
   });
 
-  $("li.dropdown").click(function() {
-      $("nav.navbar" ).toggleClass( "open");
-    });
-
 })(jQuery); // End of use strict
