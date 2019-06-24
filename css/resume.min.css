@@ -153,7 +153,7 @@ h6 {
 	.dropdown-menu{
 		background-color:#5EC36A;
 		border:0;
-		float:left;
+		float:none!important;
 	}
 }
 
