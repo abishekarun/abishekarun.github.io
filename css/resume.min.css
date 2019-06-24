@@ -209,6 +209,6 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link{
 	color:black;
 }
-nav.navbar.open {
+nav.navbar {
   margin-bottom: 120px;
 }
