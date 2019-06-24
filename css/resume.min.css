@@ -209,7 +209,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link{
 	color:black;
 }
-nav.navbar{
+.navbar-nav{
   margin-bottom: 120px;
 }
 .dropdown-toggle.active, .dropdown-toggle:active {
