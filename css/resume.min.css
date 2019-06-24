@@ -212,3 +212,6 @@ a:hover {
 nav.navbar{
   margin-bottom: 120px;
 }
+.dropdown-toggle.active, .dropdown-toggle:active {
+    color: black;
+}
