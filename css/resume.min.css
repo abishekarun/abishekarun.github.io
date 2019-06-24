@@ -175,7 +175,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-	background-color: #343a40!important
+	background-color: #5EC36A!important
 }
 
 .text-primary {
@@ -201,4 +201,7 @@ a:hover {
 }
 .mb-5{
     margin-bottom: 1rem!important;
+}
+.navbar-collapse .nav-item a{
+	color:black;
 }
