@@ -151,9 +151,10 @@ h6 {
 		display: block
 	}
 	.dropdown-menu{
+		position: relative;
 		background-color:#5EC36A;
 		border:0;
-		float:none!important;
+		float:right;
 	}
 }
 
@@ -228,7 +229,7 @@ a:hover {
 	position:relative;
 	background-color:#5EC36A;
 	border:0;
-	float:right;
+	float:none!important;
 }
 ul.dropdown-menu:hover {
     color: black;
