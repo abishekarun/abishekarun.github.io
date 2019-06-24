@@ -209,10 +209,6 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link{
 	color:black;
 }
-
-#sideNav .navbar-collapse .navbar-nav .nav-item .dropdown {
-	display: block
-}
-#sideNav .navbar-collapse .navbar-nav .nav-item .dropdown .nav-link {
-	display: block
+nav.navbar.open {
+  margin-bottom: 120px;
 }
